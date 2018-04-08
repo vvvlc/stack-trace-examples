@@ -18,11 +18,12 @@
 ## What missing
  * nothing 
  
-## Deployment
- * header only
- * `system()` to invoke gdb
- * gdb debugger
- * system setup !!!
+## Onboarding to new project
+Effort to onboard this is on medium level due to system setup.
+ * define [helper function](/gdb/src/stacktrace.h)
+ * add `-g` compilation option 
+ * gdb must be installed
+ * see system setup in requirements
 
 ## Troubleshooting 
   * I found this to be incompatible with the use of valgrind (probably due to Valgrind's use of a virtual machine). It also doesn't work when you are running the program inside of a gdb session (can't apply a second instance of "ptrace" to a process). [see](https://stackoverflow.com/questions/4636456/how-to-get-a-stack-trace-for-c-using-gcc-with-line-number-information)
