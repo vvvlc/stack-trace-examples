@@ -16,9 +16,12 @@
 ## What missing
  * C++ names are mangled (easy to fix) 
  
-## Deployment
- *  `libunwind` library
- *  `addr2line` utility
+## Onboarning to new project
+It is easy to onboard.
+ * define [helper function](/libunwind/src/stacktrace.h)
+ * add `-g` compilation option
+ * add `-lunwind -lunwind-x86_64` linker options, note: instal via `sudo apt install libunwind-dev`
+
 
 ## Troubleshooting 
 ### Stacktrace contains file unkown line 0 
