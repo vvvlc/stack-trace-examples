@@ -84,31 +84,30 @@ g++ -o "libunwind"  ./src/backtrace_symbol.o   -lunwind -lunwind-x86_64
 
 ### Output
 ```C
-_ZN2Nu5AlphaIiE4Beta4funcEi in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 16
-main in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 41
+_ZN2Nu5AlphaIiE4Beta4funcEi in file .../src/backtrace_symbol.cpp line 16
+main in file .../src/backtrace_symbol.cpp line 41
 __libc_start_main in file unkown line 0
 _start in file unkown line 0
  in file unkown line 0
-_ZN2Nu5AlphaIPcE4Beta4funcES1_ in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 16
-main in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 42
+_ZN2Nu5AlphaIPcE4Beta4funcES1_ in file .../src/backtrace_symbol.cpp line 16
+main in file .../src/backtrace_symbol.cpp line 42
 __libc_start_main in file unkown line 0
 _start in file unkown line 0
  in file unkown line 0
-_ZN2Nu5AlphaINS0_ISt3mapIidSt4lessIiESaISt4pairIKidEEEEEE4Beta4funcEv in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 13
-main in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 43
+_ZN2Nu5AlphaINS0_ISt3mapIidSt4lessIiESaISt4pairIKidEEEEEE4Beta4funcEv in file .../src/backtrace_symbol.cpp line 13
+main in file .../src/backtrace_symbol.cpp line 43
 __libc_start_main in file unkown line 0
 _start in file unkown line 0
  in file unkown line 0
-_ZN2Nu5Gamma6unrollILi0EEEvd in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 31
-_ZN2Nu5Gamma6unrollILi1EEEvd in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 25
-_ZN2Nu5Gamma6unrollILi2EEEvd in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 25
-_ZN2Nu5Gamma6unrollILi3EEEvd in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 25
-_ZN2Nu5Gamma6unrollILi4EEEvd in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 25
-_ZN2Nu5Gamma6unrollILi5EEEvd in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 25
-main in file /home/vlcvi01/Dropbox/eclipse-workspaces/stacktrace/libunwind/Debug/../src/backtrace_symbol.cpp line 44
+_ZN2Nu5Gamma6unrollILi0EEEvd in file .../src/backtrace_symbol.cpp line 31
+_ZN2Nu5Gamma6unrollILi1EEEvd in file .../src/backtrace_symbol.cpp line 25
+_ZN2Nu5Gamma6unrollILi2EEEvd in file .../src/backtrace_symbol.cpp line 25
+_ZN2Nu5Gamma6unrollILi3EEEvd in file .../src/backtrace_symbol.cpp line 25
+_ZN2Nu5Gamma6unrollILi4EEEvd in file .../src/backtrace_symbol.cpp line 25
+_ZN2Nu5Gamma6unrollILi5EEEvd in file .../src/backtrace_symbol.cpp line 25
+main in file .../src/backtrace_symbol.cpp line 44
 __libc_start_main in file unkown line 0
 _start in file unkown line 0
  in file unkown line 0
-
 
 ```
