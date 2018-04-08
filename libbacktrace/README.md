@@ -12,8 +12,12 @@
  * filenames and line numbers
 
  
-## Deployment
- *  `libbacktrace` library
+## Onboarning to new project
+Onboarding is very simple, library is part of gcc.
+ * define [helper function](/libbacktrace/src/stacktrace.h)
+ * add `-g` compilation option
+ * add `-lbacktrace` library, btw `libbacktrace` is a part of gcc package on ubuntu
+
 
 
 ## Compilation and Link
