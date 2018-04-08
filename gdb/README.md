@@ -1,5 +1,5 @@
 # GDB
-[Gdb actually provides a better stack trace with debugging information. It even provides parameter values.](https://www.reddit.com/r/programming/comments/dbj5s/stack_unwinding_stack_trace_with_gcc_i_always/)
+[Gdb actually provides a better stack trace with debugging information. It even provides parameter values.](https://www.reddit.com/r/programming/comments/dbj5s/stack_unwinding_stack_trace_with_gcc_i_always/c0yz8jg/) and [here](https://www.reddit.com/r/programming/comments/dbj5s/stack_unwinding_stack_trace_with_gcc_i_always/)
 
 
 ## Requirements
