@@ -11,9 +11,9 @@ Definition of a nice stack-trace:
  ```C
 ...
 #4    Object ".../Debug/backward", at 0x55c96b1482d8, in main
-      Source "../src/backtrace_symbol.cpp", line 40, in main [0x55c96b1482d8]
+       Source "../src/backtrace_symbol.cpp", line 40, in main [0x55c96b1482d8]
 #3    Object ".../Debug/backward", at 0x55c96b14c03a, in Nu::Alpha<int>::Beta::func(int)
-      Source "../src/backtrace_symbol.cpp", line 15, in func [0x55c96b14c03a]
+       Source "../src/backtrace_symbol.cpp", line 15, in func [0x55c96b14c03a]
 ...
  ```
 
