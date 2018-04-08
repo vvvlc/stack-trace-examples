@@ -17,7 +17,7 @@
  * C++ names are mangled (easy to fix) 
  
 ## Onboarning to new project
-It is easy to onboard.
+Onboarning is simple.
  * define [helper function](/libunwind/src/stacktrace.h)
  * add `-g` compilation option
  * add `-lunwind -lunwind-x86_64` linker options, note: instal via `sudo apt install libunwind-dev`
