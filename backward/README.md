@@ -1,5 +1,5 @@
 # backward-cpp
-[backward-cpp](https://github.com/bombela/backward-cpp/) header file and [example](https://github.com/bombela/backward-cpp#printer)
+[backward-cpp](https://github.com/bombela/backward-cpp/) header file and [example](https://github.com/bombela/backward-cpp#printer) or [here](https://stackoverflow.com/a/41404312)
 
 ## Requirements
  *  `-g` compile
