@@ -3,8 +3,10 @@
 
 
 ## Requirements
- * `-g` compilation
- * `-rdynamic` linking
+ * `-g` compilation option
+ * `-rdynamic` linker option
+  * `backtrace()`, `backtrace_symbols()` to get stack trace [doc](https://www.gnu.org/software/libc/manual/html_node/Backtraces.html)
+ * `__cxa_demangle` to have nice C++ function [doc](https://gcc.gnu.org/onlinedocs/libstdc++/libstdc++-html-USERS-4.3/a01696.html)
  
 ## Features
  * C and C++ names
@@ -12,15 +14,16 @@
 ## What missing
  * no line numbers   
  
-## Deployment
- * header only
- * `backtrace()`, `backtrace_symbols()` to get stack trace [doc](https://www.gnu.org/software/libc/manual/html_node/Backtraces.html)
- * `__cxa_demangle` to have nice C++ function [doc](https://gcc.gnu.org/onlinedocs/libstdc++/libstdc++-html-USERS-4.3/a01696.html)
+## Onboarding to new project
+Onboarding is very simple, no dependencies, however it does not provide line numbers.
+ * define [helper function](/backtrace_symbol/src/stacktrace.h)
+ * `-g` compilation option
+ * `-rdynamic` link option
  
 ## Troubleshooting
   * no stack trace - check if `-g` and `-rdynamic` options are active
 
-## Compilation and Link Without `-rdynamic` linker options.
+## Compilation and Link Without `-rdynamic` linker option
 
 ```sh
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/backtrace_symbol.d" -MT"src/backtrace_symbol.o" -o "src/backtrace_symbol.o" "../src/backtrace_symbol.cpp"
@@ -57,7 +60,7 @@ stack trace:
  
 ```
 
-## Compilation and Link With `-rdynamic` linker options.
+## Compilation and Link With `-rdynamic` linker option
 
 ```sh
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/backtrace_symbol.d" -MT"src/backtrace_symbol.o" -o "src/backtrace_symbol.o" "../src/backtrace_symbol.cpp"
