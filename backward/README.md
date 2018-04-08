@@ -1,9 +1,10 @@
-# libbacktrace
-[libbacktrace](https://github.com/ianlancetaylor/libbacktrace) [example](https://gist.github.com/tsaarni/44f8080e671683b7c870)
+# backward
+[backward](https://github.com/bombela/backward-cpp/) header file and [example](https://github.com/bombela/backward-cpp#printer)
 
 ## Requirements
  *  `-g` compile
- *  `backward.hpp` library
+ *  `backward.hpp` header file
+ *  `libdw` library
  
  
 ## Features
