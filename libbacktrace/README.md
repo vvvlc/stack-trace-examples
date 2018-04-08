@@ -1,5 +1,5 @@
-# backward
-[backward](https://github.com/bombela/backward-cpp) [example]( https://github.com/bombela/backward-cpp/blob/master/backward.cpp)
+# libbacktrace
+[libbacktrace](https://github.com/ianlancetaylor/libbacktrace) [example](https://gist.github.com/tsaarni/44f8080e671683b7c870)
 
 ## Requirements
  *  `-g` compile
