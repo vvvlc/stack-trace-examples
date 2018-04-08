@@ -3,7 +3,7 @@
 
 ## Requirements
  *  `-g` compile
- *  `backward.hpp` header file
+ *  [`backward.hpp`](https://github.com/bombela/backward-cpp/blob/master/backward.hpp) header file
  *  `libdw` library
  
  
@@ -12,9 +12,12 @@
  * filenames and line numbers
 
  
-## Deployment
- *  `backward.hpp` single header file
- *  `libdw` library
+## Onborading to a new project
+Onboarding is simple.
+ *  download single headerfile [`backward.hpp`](https://github.com/bombela/backward-cpp/blob/master/backward.hpp)
+ *  define [helper function](/backward/src/stacktrace.h)
+ *  add `-g` compilation option
+ *  add `-ldw` library, note: instal via `sudo apt install libdw-dev`
 
 ## Compilation and Link
 
